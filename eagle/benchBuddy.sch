@@ -24392,7 +24392,7 @@ AZ1117CH-3.3TRG1DICT-ND</description>
 <part name="LED9" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:15823/2"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="lab07lib" deviceset="LT3080" device=""/>
-<part name="U$2" library="lab07lib" deviceset="EG2362" device=""/>
+<part name="SW4" library="lab07lib" deviceset="EG2362" device=""/>
 <part name="KK1" library="heatsink" library_urn="urn:adsk.eagle:library:236" deviceset="SK104-PAD" device="" package3d_urn="urn:adsk.eagle:package:14201/1"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP13R" package3d_urn="urn:adsk.eagle:package:27967/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP13R" package3d_urn="urn:adsk.eagle:package:27967/1"/>
@@ -24784,7 +24784,7 @@ EENG 393 - ICE Field Session</text>
 <attribute name="VALUE" x="137.16" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="177.8" y="185.42" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="45.72" y="185.42" smashed="yes">
+<instance part="SW4" gate="G$1" x="45.72" y="185.42" smashed="yes">
 <attribute name="NAME" x="38.1" y="190.5" size="1.27" layer="94"/>
 <attribute name="VALUE" x="48.26" y="190.5" size="1.27" layer="94"/>
 </instance>
@@ -25096,7 +25096,7 @@ EENG 393 - ICE Field Session</text>
 <wire x1="63.5" y1="182.88" x2="76.2" y2="182.88" width="0.1524" layer="91"/>
 <junction x="63.5" y="182.88"/>
 <junction x="76.2" y="182.88"/>
-<pinref part="U$2" gate="G$1" pin="ON2"/>
+<pinref part="SW4" gate="G$1" pin="ON2"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="P" pin="V+"/>
@@ -25727,7 +25727,7 @@ EENG 393 - ICE Field Session</text>
 <net name="N$44" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="P$2"/>
-<pinref part="U$2" gate="G$1" pin="COM"/>
+<pinref part="SW4" gate="G$1" pin="COM"/>
 <wire x1="33.02" y1="185.42" x2="38.1" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25909,14 +25909,6 @@ Course:    EENG 393 - ICE Field Session</text>
 <busses>
 </busses>
 <nets>
-<net name="N$4" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="45.72" y1="35.56" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
-<wire x1="45.72" y1="40.64" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="5V" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -26094,6 +26086,12 @@ Course:    EENG 393 - ICE Field Session</text>
 <pinref part="J7" gate="G$1" pin="P$1"/>
 <pinref part="SUPPLY12" gate="G$1" pin="VIN"/>
 <wire x1="114.3" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="45.72" y1="35.56" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
+<wire x1="45.72" y1="40.64" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
