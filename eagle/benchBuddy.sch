@@ -22878,6 +22878,61 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pad name="P$1" x="0" y="0" drill="1.9304" diameter="5.08" shape="offset" rot="R90"/>
 <text x="0" y="-3.175" size="1.778" layer="21" align="top-center">&gt;Value</text>
 </package>
+<package name="HEATSINK_MINI">
+<pad name="P$1" x="0" y="2.413" drill="1.524" diameter="5.08" shape="long"/>
+<wire x1="-7.62" y1="-4.445" x2="-7.62" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="6.35" x2="-6.985" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="6.35" x2="7.62" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-4.445" x2="6.985" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-4.445" x2="6.985" y2="0" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="0" x2="-6.985" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="0" x2="-6.985" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-4.445" x2="-7.62" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="6.35" x2="-6.985" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="1.905" x2="-6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="6.35" x2="-5.715" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="6.35" x2="-5.715" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="6.35" x2="-4.445" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="6.35" x2="-4.445" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.905" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="6.35" x2="-3.175" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="6.35" x2="-3.175" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.905" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.35" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="6.35" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="4.445" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.905" x2="4.445" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="6.35" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.715" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="1.905" x2="5.715" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.985" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="1.905" x2="6.985" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.905" x2="3.175" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.35" x2="-1.905" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="6.35" x2="2.54" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="6.35" x2="3.81" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="6.35" x2="5.08" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="6.35" x2="6.35" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="6.35" x2="7.62" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="-0.635" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="6.35" x2="-0.635" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.905" x2="0.635" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="6.35" x2="1.27" y2="6.35" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LT3080">
@@ -22958,6 +23013,33 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
 <text x="2.54" y="0" size="1.778" layer="96">&gt;Value</text>
 <circle x="1.27" y="0" radius="1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="HEATSINK_MINI">
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="1.27" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="4.318" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.636" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.636" y1="0" x2="8.636" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="8.636" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="1.27" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="1.27" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="4.318" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="7.62" x2="4.318" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="5.08" x2="6.096" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="6.096" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="0" visible="pad" length="point" rot="R90"/>
+<text x="0" y="7.62" size="1.778" layer="95">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23139,6 +23221,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </gates>
 <devices>
 <device name="" package="FAT-PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEATSINK_MINI">
+<gates>
+<gate name="G$1" symbol="HEATSINK_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEATSINK_MINI">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
@@ -24463,6 +24560,8 @@ AZ1117CH-3.3TRG1DICT-ND</description>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="U$2" library="lab07lib" deviceset="HEATSINK_MINI" device=""/>
+<part name="U$3" library="lab07lib" deviceset="HEATSINK_MINI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25919,6 +26018,8 @@ Course:    EENG 393 - ICE Field Session</text>
 <instance part="SUPPLY12" gate="G$1" x="109.22" y="20.32" smashed="yes">
 <attribute name="VALUE" x="106.68" y="23.114" size="1.778" layer="96" align="center-right"/>
 </instance>
+<instance part="U$2" gate="G$1" x="66.04" y="198.12" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="139.7" y="195.58" smashed="yes"/>
 </instances>
 <busses>
 </busses>
