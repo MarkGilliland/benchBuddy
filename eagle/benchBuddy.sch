@@ -22879,7 +22879,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="0" y="-3.175" size="1.778" layer="21" align="top-center">&gt;Value</text>
 </package>
 <package name="HEATSINK_MINI">
-<pad name="P$1" x="0" y="2.413" drill="1.524" diameter="5.08" shape="long"/>
+<pad name="P$1" x="0" y="2.413" drill="1.524" diameter="3.302" shape="long"/>
 <wire x1="-7.62" y1="-4.445" x2="-7.62" y2="6.35" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="6.35" x2="-6.985" y2="6.35" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-4.445" width="0.1524" layer="21"/>
@@ -22933,7 +22933,61 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="0.635" y1="1.905" x2="0.635" y2="6.35" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="6.35" x2="1.27" y2="6.35" width="0.1524" layer="21"/>
 </package>
+<package name="SOT223-HS" library_version="8">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="3.8608" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-6.4008" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<wire x1="-4.445" y1="4.445" x2="-4.445" y2="-4.445" width="0.1524" layer="51"/>
+<wire x1="-4.445" y1="-4.445" x2="4.445" y2="-4.445" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="-4.445" x2="4.445" y2="4.445" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="4.445" x2="-4.445" y2="4.445" width="0.1524" layer="51"/>
+</package>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:43189/1" library_version="8">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:43439/1" type="box" library_version="8">
+<description>Small Outline Transistor</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="LT3080">
 <wire x1="0" y1="0" x2="0" y2="-12.7" width="0.1524" layer="94"/>
@@ -23040,6 +23094,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="10.16" y1="7.62" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
 <pin name="P$1" x="0" y="0" visible="pad" length="point" rot="R90"/>
 <text x="0" y="7.62" size="1.778" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="3PINREG">
+<wire x1="-15.24" y1="0" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="-15.24" y2="0" width="0.254" layer="94"/>
+<pin name="INPUT" x="-20.32" y="-2.54" length="middle"/>
+<pin name="VOUT" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
+<text x="-15.24" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23238,6 +23303,39 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <device name="" package="HEATSINK_MINI">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3V3REG" prefix="U">
+<description>Cheap 3.3V VReg, Linear SOT223, 1A
+
+AP2114HA-3.3TRG1</description>
+<gates>
+<gate name="G$1" symbol="3PINREG" x="-20.32" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="INPUT" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2 4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43439/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HEATSINK" package="SOT223-HS">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="INPUT" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24330,78 +24428,6 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="PowerManagementParts">
-<packages>
-<package name="SOT223" urn="urn:adsk.eagle:footprint:43189/1" library_version="8">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
-<smd name="1" x="-2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="2" x="0" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="3" x="2.311" y="-3.099" dx="1.219" dy="2.235" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:43439/1" type="box" library_version="8">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT223"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="3PINREG">
-<wire x1="-15.24" y1="0" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="-15.24" y2="0" width="0.254" layer="94"/>
-<pin name="INPUT" x="-20.32" y="-2.54" length="middle"/>
-<pin name="VOUT" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
-<text x="-15.24" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="3V3REG" prefix="U">
-<description>Diodes Inc. 800mA 3.3V cheap VREG
-
-AZ1117CH-3.3TRG1
-AZ1117CH-3.3TRG1DICT-ND</description>
-<gates>
-<gate name="G$1" symbol="3PINREG" x="-20.32" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="INPUT" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43439/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24526,7 +24552,7 @@ AZ1117CH-3.3TRG1DICT-ND</description>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
-<part name="U3" library="PowerManagementParts" deviceset="3V3REG" device="" package3d_urn="urn:adsk.eagle:package:43439/1"/>
+<part name="U3" library="lab07lib" deviceset="3V3REG" device="-HEATSINK"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2"/>
@@ -25291,9 +25317,9 @@ EENG 393 - ICE Field Session</text>
 <junction x="213.36" y="63.5"/>
 </segment>
 <segment>
-<pinref part="J3" gate="A" pin="4"/>
-<wire x1="152.4" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-<label x="170.18" y="50.8" size="1.778" layer="95"/>
+<pinref part="J3" gate="A" pin="3"/>
+<wire x1="152.4" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="167.64" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -25790,26 +25816,26 @@ EENG 393 - ICE Field Session</text>
 </net>
 <net name="I_SET_MICRO" class="0">
 <segment>
-<pinref part="J3" gate="A" pin="3"/>
-<wire x1="152.4" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
-<label x="160.02" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="S3" gate="G$1" pin="4"/>
 <wire x1="127" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <label x="109.22" y="124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="A" pin="4"/>
+<wire x1="152.4" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<label x="165.1" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="V_SET_MICRO" class="0">
-<segment>
-<pinref part="J3" gate="A" pin="5"/>
-<wire x1="152.4" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<label x="160.02" y="53.34" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="S3" gate="G$1" pin="1"/>
 <wire x1="127" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
 <label x="109.22" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="A" pin="5"/>
+<wire x1="152.4" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<label x="165.1" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I_SET_POT" class="0">
@@ -26019,7 +26045,7 @@ Course:    EENG 393 - ICE Field Session</text>
 <attribute name="VALUE" x="106.68" y="23.114" size="1.778" layer="96" align="center-right"/>
 </instance>
 <instance part="U$2" gate="G$1" x="66.04" y="198.12" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="139.7" y="195.58" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="78.74" y="142.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
