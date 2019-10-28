@@ -25107,6 +25107,8 @@ LED</description>
 <part name="U$2" library="lab07lib" deviceset="HEATSINK_MINI" device=""/>
 <part name="U$3" library="lab07lib" deviceset="HEATSINK_MINI" device=""/>
 <part name="TEST_PADS" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03X2" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38013/1"/>
+<part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
+<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -25553,6 +25555,14 @@ EENG 393 - ICE Field Session</text>
 <instance part="C13" gate="G$1" x="223.52" y="175.26" smashed="yes">
 <attribute name="NAME" x="224.536" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="224.536" y="171.069" size="1.778" layer="96"/>
+</instance>
+<instance part="H5" gate="G$1" x="149.86" y="33.02" smashed="yes">
+<attribute name="NAME" x="151.892" y="33.6042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.892" y="30.5562" size="1.778" layer="96"/>
+</instance>
+<instance part="H6" gate="G$1" x="149.86" y="25.4" smashed="yes">
+<attribute name="NAME" x="151.892" y="25.9842" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.892" y="22.9362" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
