@@ -25118,7 +25118,7 @@ LED</description>
 EENG 393 - ICE Field Session</text>
 <text x="96.012" y="101.6" size="1.778" layer="91" rot="R90">Voltage Set</text>
 <text x="88.392" y="124.46" size="1.778" layer="91" rot="R90">Current Set</text>
-<text x="262.128" y="6.604" size="3.81" layer="94">1.0</text>
+<text x="262.128" y="6.604" size="3.81" layer="94">1.1</text>
 <text x="147.32" y="60.96" size="1.778" layer="91">Expansion Header for MCU Control</text>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="0" width="0.1524" layer="97"/>
 <wire x1="144.78" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="97"/>
@@ -26430,7 +26430,11 @@ Course:    EENG 393 - ICE Field Session</text>
 <text x="7.62" y="203.2" size="3.81" layer="97">3.3V @ 1A Supply</text>
 <text x="7.62" y="144.78" size="3.81" layer="97">5V @ 1A Supply</text>
 <text x="12.7" y="55.88" size="3.81" layer="97">Indicator LEDs</text>
-<text x="262.128" y="6.604" size="3.81" layer="94">1.0</text>
+<text x="262.128" y="6.604" size="3.81" layer="94">1.1</text>
+<text x="182.88" y="114.3" size="2.54" layer="97">Note: There are many parts to this schematic
+that were added to make the
+final project more useful. This includes
+fuses, an expansion header, and 3.3V / 5V output</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
