@@ -25798,6 +25798,11 @@ EENG 393 - ICE Field Session</text>
 <wire x1="213.36" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="104.14" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J3" gate="A" pin="6"/>
+<wire x1="152.4" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="172.72" y="55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -25923,11 +25928,6 @@ EENG 393 - ICE Field Session</text>
 <junction x="261.62" y="104.14"/>
 <wire x1="261.62" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
 <label x="264.16" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="A" pin="6"/>
-<wire x1="152.4" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="167.64" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
