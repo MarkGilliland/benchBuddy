@@ -26769,7 +26769,6 @@ fuses, an expansion header, and 3.3V / 5V output</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="45.72" y1="35.56" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
-<wire x1="45.72" y1="40.64" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">

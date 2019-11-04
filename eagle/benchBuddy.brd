@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -1969,7 +1969,7 @@ Ctr Positive</text>
 <text x="5.08" y="26.67" size="1.778" layer="21" rot="R90" align="bottom-center">↓ TOASTY ↓ </text>
 <text x="97.79" y="17.78" size="1.778" layer="21" align="bottom-center">Mark Gilliland
 2019</text>
-<text x="53.34" y="27.94" size="1.27" layer="21" align="bottom-center">Power Supply
+<text x="107.95" y="8.89" size="1.27" layer="21" align="bottom-center">Power Supply
 Bench Buddy</text>
 <rectangle x1="82.883709375" y1="42.484190625" x2="101.397765625" y2="42.512640625" layer="30" rot="R180"/>
 <rectangle x1="82.883709375" y1="42.512640625" x2="101.397765625" y2="42.540834375" layer="30" rot="R180"/>
@@ -3735,6 +3735,7 @@ Bench Buddy</text>
 <rectangle x1="82.883709375" y1="53.885996875" x2="101.397765625" y2="53.914190625" layer="30" rot="R180"/>
 <rectangle x1="82.883709375" y1="53.914190625" x2="101.397765625" y2="53.942640625" layer="30" rot="R180"/>
 <rectangle x1="82.883709375" y1="53.942640625" x2="101.397765625" y2="53.970834375" layer="30" rot="R180"/>
+<text x="102.87" y="7.62" size="1.524" layer="25" rot="R270">Rev1.0</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
