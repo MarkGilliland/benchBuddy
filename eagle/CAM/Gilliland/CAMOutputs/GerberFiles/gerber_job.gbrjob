@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.2*%
+%TF.CreationDate,2019-11-04T22:31:56Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Mark Gilliland <mgilliland@mymail.mines.edu>*%
+%TJ.B_ID,benchBuddy*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.572300*%
+%TJ.B_Size_X,113.970000*%
+%TJ.B_Size_Y,76.190000*%
+M02*
