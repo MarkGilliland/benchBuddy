@@ -5957,9 +5957,9 @@ Phone Connectors&lt;br&gt;
 Cinch Connectors&lt;br&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SPC4078" urn="urn:adsk.eagle:footprint:7489/1" library_version="1">
-<description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
-Source: www.spctechnology.com .. 84N1162.pdf&lt;br&gt;
+<package name="SPC4077" urn="urn:adsk.eagle:footprint:7488/1" library_version="1">
+<description>&lt;b&gt;DC POWER JACK 2mm&lt;/b&gt;&lt;br&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
+Source: www.spctechnology.com .. 84N1161.pdf&lt;br&gt;
 Distributor: &lt;b&gt;Farnell (www.Farnell.de)&lt;/b&gt;&lt;br&gt;
 Created by Robert Siegler</description>
 <wire x1="-10.75" y1="-4.5" x2="-10.75" y2="-3.2" width="0.1" layer="21"/>
@@ -5982,12 +5982,12 @@ Created by Robert Siegler</description>
 <wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
 <wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
 <wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="1.25" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-1.75" y2="1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="-1.25" x2="-1.75" y2="-1.25" width="0.1" layer="51" style="shortdash"/>
-<wire x1="-8.75" y1="1.25" x2="-8.75" y2="-1.25" width="0.1" layer="21" curve="180"/>
+<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="1" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-8.75" y1="-1" x2="-1.75" y2="-1" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-8.75" y1="1" x2="-1.75" y2="1" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-8.75" y1="-1" x2="-8.75" y2="1" width="0.1" layer="21" curve="-180"/>
 <wire x1="2.5" y1="1.75" x2="3.5" y2="1.75" width="0" layer="46"/>
 <wire x1="3.5" y1="1.75" x2="3.5" y2="-1.75" width="0" layer="46"/>
 <wire x1="3.5" y1="-1.75" x2="2.5" y2="-1.75" width="0" layer="46"/>
@@ -6000,31 +6000,31 @@ Created by Robert Siegler</description>
 <wire x1="1.5" y1="-4.4" x2="1.5" y2="-5.2" width="0" layer="46"/>
 <wire x1="1.5" y1="-5.2" x2="-1.5" y2="-5.2" width="0" layer="46"/>
 <wire x1="-1.5" y1="-5.2" x2="-1.5" y2="-4.4" width="0" layer="46"/>
-<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
+<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
+<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
 <wire x1="3.25" y1="-4" x2="3.25" y2="-2.35" width="0.1" layer="21"/>
 <wire x1="3.25" y1="2.35" x2="3.25" y2="4" width="0.1" layer="21"/>
-<wire x1="2.75" y1="-4" x2="3.25" y2="-4" width="0.1" layer="21"/>
-<wire x1="-10.75" y1="-4.5" x2="-2.56" y2="-4.5" width="0.1" layer="21"/>
 <wire x1="1.25" y1="-2.73" x2="1.25" y2="4" width="0.1" layer="21"/>
+<wire x1="2.75" y1="2.35" x2="2.75" y2="4" width="0.1" layer="21"/>
+<wire x1="2.75" y1="-4" x2="2.75" y2="-2.35" width="0.1" layer="21"/>
 <pad name="2" x="0" y="-4.8" drill="0.8" diameter="2.1844" shape="long"/>
 <pad name="1" x="-3" y="0" drill="0.8" diameter="2.1844" shape="long" rot="R90"/>
 <pad name="3" x="3" y="0" drill="1" diameter="2.1844" shape="long" rot="R90"/>
-<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-10.16" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.25" y1="-5.05" x2="1.25" y2="-4.55" layer="51"/>
 <rectangle x1="2.75" y1="-1.5" x2="3.25" y2="1.5" layer="51"/>
 <rectangle x1="-3.1" y1="-1.25" x2="-2.9" y2="1.25" layer="51"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SPC4078" urn="urn:adsk.eagle:package:7494/1" type="box" library_version="1">
-<description>DC POWER JACK 2.5mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
-Source: www.spctechnology.com .. 84N1162.pdf
+<package3d name="SPC4077" urn="urn:adsk.eagle:package:7492/1" type="box" library_version="1">
+<description>DC POWER JACK 2mm Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals
+Source: www.spctechnology.com .. 84N1161.pdf
 Distributor: Farnell (www.Farnell.de)
 Created by Robert Siegler</description>
 <packageinstances>
-<packageinstance name="SPC4078"/>
+<packageinstance name="SPC4077"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6038,7 +6038,7 @@ Created by Robert Siegler</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SilverCircuits">
+<designrules name="PCBway">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -6686,11 +6686,13 @@ design rules under a new name.</description>
 </element>
 <element name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="109.22" y="45.72" smashed="yes"/>
 <element name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" package="2,8" package3d_urn="urn:adsk.eagle:package:14271/1" value="MOUNT-HOLE2.8" x="83.82" y="60.96" smashed="yes"/>
-<element name="J10" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="SPC4078" package3d_urn="urn:adsk.eagle:package:7494/1" value="" x="7.62" y="55.88">
+<element name="J10" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="SPC4077" package3d_urn="urn:adsk.eagle:package:7492/1" value="" x="7.62" y="55.88" smashed="yes">
 <attribute name="MF" value="" x="7.62" y="55.88" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="7.62" y="55.88" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.54" y="60.96" size="1.27" layer="25"/>
 <attribute name="OC_FARNELL" value="unknown" x="7.62" y="55.88" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="7.62" y="55.88" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-2.54" y="49.53" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -7112,8 +7114,8 @@ design rules under a new name.</description>
 <wire x1="27.051" y1="37.719" x2="27.178" y2="37.592" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="37.592" x2="27.178" y2="37.49" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="37.49" x2="25.4" y2="35.712" width="0.4064" layer="1"/>
-<wire x1="27.051" y1="37.719" x2="31.309" y2="37.719" width="0.4064" layer="1"/>
-<wire x1="31.309" y1="37.719" x2="31.69" y2="38.1" width="0.4064" layer="1"/>
+<wire x1="27.051" y1="37.719" x2="31.69" y2="37.719" width="0.4064" layer="1"/>
+<wire x1="31.69" y1="37.719" x2="31.69" y2="38.1" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="IC2" pad="9"/>
