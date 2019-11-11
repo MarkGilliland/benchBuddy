@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15185,6 +15185,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -15515,6 +15516,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R50" gate="G$1" x="170.18" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="173.99" y="51.8414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="173.99" y="56.642" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="H6" gate="G$1" x="246.38" y="40.64" smashed="yes">
+<attribute name="NAME" x="248.412" y="41.2242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.412" y="38.1762" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
