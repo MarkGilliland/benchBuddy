@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15694,6 +15694,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="152.4" y1="63.5" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="10"/>
+<wire x1="256.54" y1="127" x2="259.08" y2="127" width="0.1524" layer="91"/>
+<label x="259.08" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -16208,6 +16213,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="195.58" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="198.12"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="9"/>
+<wire x1="241.3" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
+<label x="238.76" y="127" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="FGEN" class="0">
