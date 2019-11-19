@@ -15834,6 +15834,121 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Jumpers" urn="urn:adsk.eagle:library:528">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" urn="urn:adsk.eagle:footprint:39275/1" library_version="1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_1-NC_PASTE_SILK" urn="urn:adsk.eagle:footprint:39276/1" library_version="1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-0.4064" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39291/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_3_1-NC_PASTE_SILK" urn="urn:adsk.eagle:package:39293/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_PASTE_SILK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SMT-JUMPER_3_1-NC_PASTE" urn="urn:adsk.eagle:symbol:39274/1" library_version="1">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-0.381" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.254" layer="95">
+<vertex x="-1.524" y="0.762"/>
+<vertex x="-1.524" y="-1.524" curve="90"/>
+<vertex x="0" y="-3.048" curve="90"/>
+<vertex x="1.524" y="-1.524"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JUMPER-SMT_3_1-NC_PASTE" urn="urn:adsk.eagle:component:39301/1" prefix="JP" library_version="1">
+<description>&lt;h3&gt;Normally closed solder jumper (1 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge one of the two connections. One connection is normally closed (NC), while the other is normally open (NO). Wick off the solder to open the connection. Reapply solder to reclose the connection. Apply solder to the other side instead to change the current path.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_3_1-NC_PASTE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_3_1-NC_PASTE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39291/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_3_1-NC_PASTE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39293/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15976,6 +16091,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="NO_SILK" package3d_urn="urn:adsk.eagle:package:38108/1"/>
+<part name="JP_FGEN_SEL" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39293/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17546,6 +17662,9 @@ Filter at Fc = 110kHz</text>
 <attribute name="NAME" x="113.03" y="122.9614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="113.03" y="125.222" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="JP_FGEN_SEL" gate="G$1" x="96.52" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.52" y="126.619" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17673,9 +17792,10 @@ Filter at Fc = 110kHz</text>
 <label x="63.5" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
-<label x="101.6" y="119.38" size="1.778" layer="95" rot="R180"/>
-<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="JP_FGEN_SEL" gate="G$1" pin="3"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
+<label x="88.9" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAC_D" class="0">
@@ -17990,6 +18110,21 @@ Filter at Fc = 110kHz</text>
 <pinref part="R37" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="D" pin="+IN"/>
 <wire x1="139.7" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="JP_FGEN_SEL" gate="G$1" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIO7_PROT" class="0">
+<segment>
+<pinref part="JP_FGEN_SEL" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="114.3" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="96.52" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
