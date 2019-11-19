@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15842,6 +15842,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="crystalDiff" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
@@ -16317,7 +16319,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="CRYS_P" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
@@ -16328,7 +16330,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <junction x="55.88" y="137.16"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CRYS_N" class="1">
 <segment>
 <pinref part="Q1" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
